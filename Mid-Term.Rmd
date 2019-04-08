@@ -1,0 +1,87 @@
+---
+title             : "Reproducing: The Sound of Intellect: Speech Reveals a Thoughtful Mind, Increasing a Job Candidate’s Appeal"
+shorttitle        : "MidTerm Reproduction"
+
+author: 
+  - name          : "Troy Funderburk"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "17 Lackawanna Pl, Bloomfield, NJ 07003"
+    email         : "troyfunderburk2@gmail.com"
+
+
+affiliation:
+  - id            : "1"
+    institution   : "Brooklyn College"
+
+
+abstract: |
+  A persons intellect can be measured in many ways. What is the difference of intellect observation from written to spoken elevator pitches?
+  
+  The research suggests that a persons verbal cues will present a higher level of intellect than that of a written pitch. 
+  
+  As a result the study found that evaluators rated a candidate as more competent, thoughtful, and intelligent when they heard a pitch rather than read it and, as a result, had a more favorable impression of the candidate and were more interested in hiring the candidate.
+  
+  <!-- https://tinyurl.com/ybremelq -->
+  
+keywords          : "communication, voice, speech, mind perception, social cognition, decision making, open data"
+wordcount         : "X"
+
+bibliography      : ["mybib.bib","r-references.bib"]
+
+floatsintext      : no #yes puts it in doc, no puts it in appdx
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+
+
+# Methods
+
+## Participants
+Thirty-nine professional recruiters (mean age = 30.85 years, SD = 6.24; 9 males) from Fortune 500 companies voluntarily agreed to evaluate pitches of job candidates from the University of Chicago Booth School of Business.
+
+## Material
+Recordings of elevator pitches from three job candidates. A computerized survey including a likert scale response. 
+
+## Procedure
+Randomly selected three job candidates’ spoken pitches. In an online survey, they randomly assigned recruiters to either listen to one of the spoken pitches (audio condition) or read the transcription of one of those pitches (transcript condition). They recorded how long each recruiter spent on the survey page with the stimulus. The recruiters then answered the same survey items as a previous experiment, with one change: All responses were recorded on Likert scales labeled from 0 to 10. Recruiters then completed a memory test in which they reported “everything you can remember about the pitch" the MBA student gave.
+
+## Data analysis
+
+# Results 
+An independent t-test releavedfor written pitches t(4.6) = 2.36, p = .02, and t(5.7) = 2.36, p = .02 for verbal pitches, showing  statistical significqnce for higher intellectual ratings towards verbal over written pitches. 
+
+# Discussion
+The words that come out of a person’s mouth convey the presence of a thoughtful mind more clearly than the words typed by a person’s hands—even when those words are identical. Finally, our experiments raise practical implications for people who are trying to reveal their thoughtful mind to others.
+
+\newpage
+
+# References
+Schroeder, J. & Epley, N. (2015) The sound of intellect: speech reveals a thoughtful mind, increasing a job candidate’s appeal. Psychological Science. 26(6) 877-891.
+doi:10.1177/0956797615572906
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id = "refs"></div>
+\endgroup
