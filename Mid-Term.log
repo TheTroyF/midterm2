@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  8 APR 2019 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  15 APR 2019 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,20 +848,20 @@ File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 ) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2] [3] [4] AED endfloat: Processing end Figures and Tables [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
 (./Mid-Term.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `Mid-Term.out' has not changed.
 (rerunfilecheck)             Checksum: 80ADD5B71A9A583D0DF39ADC6D1F7066;1477.
  ) 
 Here is how much of TeX's memory you used:
- 15246 strings out of 492649
- 226454 string characters out of 6129622
+ 15244 strings out of 492649
+ 226434 string characters out of 6129622
  342499 words of memory out of 5000000
  18846 multiletter control sequences out of 15000+600000
- 48692 words of font info for 61 fonts, out of 8000000 for 9000
+ 48601 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,10n,47p,795b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -870,7 +870,7 @@ texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/20
 st/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
 e1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
 lm/lmss8.pfb>
-Output written on Mid-Term.pdf (5 pages, 106616 bytes).
+Output written on Mid-Term.pdf (5 pages, 106527 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
