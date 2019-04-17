@@ -77,8 +77,7 @@ knitr::kable(tidy(t_results))
 
 ```{r}
 
-VI <- c(6.638889, 5.577778, 5.577778, 5.888889, 5.577778, 5.888889, 5.577778, 5.722222, 5.888889, 5.577778, 5.722222, 5.888889, 5.722222, 5.577778, 5.722222, 5.577778, 5.888889)
-WI <- c(2, 3, 2.666667, 4.666667, 6.666667, 4.666667, 1.666667, 5.666667, 4.666667, 8, 2.666667, 7.333333, 4.666667, 4.333333, 3.333333, 5.666667, 7.666667)
+
 plot_df <- data.frame(WI,VI)
 # basic scatterplot
 ggplot(plot_df, aes(x=WI,y=VI))+ #identify what x/y axis are, groups, etc connect data to different prts of graph
@@ -86,3 +85,40 @@ ggplot(plot_df, aes(x=WI,y=VI))+ #identify what x/y axis are, groups, etc connec
 
 
 ```
+
+```{r}
+
+library(ggplot2)
+# Create dataframe
+
+Intellect_perception <- c("verbal intellect","written intellect")
+#hand entered all the data points, the general shapes replicate the ones from the homework
+
+verbal_written_scores <- c(6.638889,2,5.577778,3,5.577778,2.666667,5.888889,4.666667,5.577778,6.666667,5.888889,4.666667,5.577778,1.666667,5.722222,5.666667,5.888889,4.666667,5.577778,8,5.722222,2.666667,5.888889,7.333333,5.722222,4.666667,5.577778,3.333333,4,5.722222,3.333333,5.577778,5.666667,7.666667)
+  
+
+#need to represent dots to follow equal then men, equal then men, to have an even number
+
+
+plot_df <- data.frame(Intellect_perception,verbal_written_scores)
+
+
+
+# basic scatterplot
+ggplot(plot_df, aes(x=Intellect_perception,y=verbal_written_scores))+
+   coord_cartesian(ylim=c(1,8))+#identify what x/y axis are, groups, etc connect data to different prts of graph
+  geom_violin()#adds violin as representation of dots
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
